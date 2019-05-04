@@ -227,6 +227,7 @@
             this.button_PDF.TabIndex = 20;
             this.button_PDF.Text = "PDF";
             this.button_PDF.UseVisualStyleBackColor = true;
+            this.button_PDF.Click += new System.EventHandler(this.button_PDF_Click);
             // 
             // button_exel
             // 
@@ -276,7 +277,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "button_JSON";
-            this.Text = "Form1";
+            this.Text = "Sistema Escolar";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
